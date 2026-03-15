@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "location": "Türkiye · ABD",
+    "tagline": "Bir zamanlar iPad'i kimin kırdığını tartışırdık.",
+    "taglineStrong": "Şimdi birlikte bir şeyler inşa ediyoruz.",
+    "viewWork": "Çalışmalarımız",
+    "contact": "İletişime Geç"
+  },
+  "sections": {
+    "services": {
+      "label": "Ne Yapıyoruz",
+      "heading": "Hizmetler",
+      "subheading": "Yapay zekadan mobil uygulamalara — siz işinize odaklanın, teknik kısmı biz halledelim."
+    },
+    "about": {
+      "label": "Ekip",
+      "heading": "Biz Kimiz",
+      "subheading": "Birbirinden binlerce kilometre uzakta birlikte üreten bir kız ve erkek kardeş.",
+      "storyLabel": "Hikayemiz",
+      "storyHeading": "Bir zamanlar iPad'i kimin kırdığını tartışırdık. Şimdi birlikte inşa ediyoruz.",
+      "storyBody1": "Türkiye'de büyüdük, eğitim için ABD'ye geldik. Bir noktada ikimizin de aynı şeyi yaptığını fark ettik — sadece ayrı ayrı. Dastugo bunun cevabı.",
+      "storyBody2": "Serap'ın yapay zeka uzmanlığını Dogan'ın full-stack ve mobil geliştirme deneyimiyle birleştiriyoruz. Küçük ama geniş yelpazeli bir ekip."
+    },
+    "projects": {
+      "label": "Çalışmalarımız",
+      "heading": "Projeler",
+      "viewAll": "Tüm Projeleri Gör"
+    },
+    "blogs": {
+      "label": "Düşünceler",
+      "heading": "Blog",
+      "viewAll": "Tüm Yazıları Gör"
+    },
+    "gallery": {
+      "label": "Sahne Arkası",
+      "heading": "Galeri",
+      "viewAll": "Tüm Fotoğraflar"
+    },
+    "contact": {
+      "label": "Konuşalım",
+      "heading": "Proje Başlatalım",
+      "body": "Bir fikriniz mi var? Bir şeyleri otomatikleştirmek mi istiyorsunuz? Mesajı atın, hızlı döneriz.",
+      "basedIn": "Konum",
+      "location": "Dallas, TX — ABD",
+      "alsoServingLabel": "Ayrıca",
+      "alsoServing": "Türkiye & uzaktan"
+    }
+  },
+  "contact": {
+    "namLabel": "Ad Soyad",
+    "namePlaceholder": "Adınız",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "siz@sirket.com",
+    "companyLabel": "Şirket (isteğe bağlı)",
+    "companyPlaceholder": "Şirket adınız",
+    "serviceLabel": "Hizmet",
+    "servicePlaceholder": "Hizmet seçin...",
+    "messageLabel": "Mesaj",
+    "messagePlaceholder": "Projenizden bahsedin...",
+    "send": "Gönder",
+    "sending": "Gönderiliyor...",
+    "successTitle": "Mesaj Alındı",
+    "successBody": "Teşekkürler! En kısa sürede dönüş yapacağız.",
+    "services": [
+      "Yapay Zeka Danışmanlığı",
+      "Yapay Zeka Otomasyonu",
+      "Full-Stack Geliştirme",
+      "Mobil Uygulama Geliştirme",
+      "Web Geliştirme",
+      "Chatbot Hizmetleri",
+      "Şirket İçi Yapay Zeka Ajanları",
+      "Diğer"
+    ]
+  },
+  "footer": {
+    "tagline": "Türkiye ve ABD arasında yapay zeka çözümleri, yazılım ve otomasyon sistemleri geliştiren iki kardeş.",
+    "company": "Şirket",
+    "resources": "Kaynaklar",
+    "team": "Ekip",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "projects": "Projeler",
+    "blog": "Blog",
+    "gallery": "Galeri",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "nav": {
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "projects": "Projeler",
+    "blog": "Blog",
+    "gallery": "Galeri",
+    "contact": "İletişim",
+    "getInTouch": "İletişime Geç"
+  },
+  "notFound": {
+    "label": "Sayfa Bulunamadı",
+    "heading": "404",
+    "body": "Bu sayfa kayboldu. Olur bazen — bize de oluyor.",
+    "back": "Ana Sayfaya Dön"
+  },
+  "projects": {
+    "label": "Çalışmalarımız",
+    "heading": "Tüm Projeler",
+    "subheading": "Gurur duyduğumuz çalışmalar — açık kaynak araçlardan müşteri projelerine.",
+    "featured": "Öne Çıkan",
+    "back": "Tüm Projeler",
+    "related": "Benzer Projeler",
+    "viewGithub": "GitHub'da Gör",
+    "liveDemo": "Canlı Demo"
+  },
+  "blogs": {
+    "label": "Düşünceler",
+    "heading": "Tüm Yazılar",
+    "subheading": "Yapay zeka, yazılım ve ürün geliştirme üzerine.",
+    "featured": "Öne Çıkan",
+    "morePosts": "Diğer Yazılar",
+    "back": "Tüm Yazılar",
+    "moreBy": "Diğer Yazıları"
+  },
+  "gallery": {
+    "label": "Sahne Arkası",
+    "heading": "Galeri",
+    "subheading": "Yolculuğumuzdan kareler."
+  },
+  "toggle": {
+    "projects": "Projeler",
+    "blogs": "Blog"
+  },
+  "chat": {
+    "greeting": "Merhaba! Dastugo asistanıyım. Size nasıl yardımcı olabilirim?",
+    "placeholder": "Bir şeyler sorun...",
+    "send": "Gönder",
+    "limitReached": "Mesaj limitine ulaştınız. Sorularınız için iletişim formunu kullanabilirsiniz.",
+    "error": "Bir hata oluştu. Tekrar deneyin.",
+    "title": "Dastugo Asistanı"
+  }
+}

@@ -1,6 +1,7 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
+import { useLocale, useTranslations } from 'next-intl'
 import { cn } from '@/lib/utils'
 
 interface ContentToggleProps {
@@ -9,11 +10,13 @@ interface ContentToggleProps {
 
 export default function ContentToggle({ active }: ContentToggleProps) {
   const router = useRouter()
+  const locale = useLocale()
+  const t = useTranslations('toggle')
 
   return (
     <div className="inline-flex items-center p-1 rounded-full bg-secondary border border-border gap-1">
       <button
-        onClick={() => router.push('/projects')}
+        onClick={() => router.push(`/${locale}/projects`)}
         className={cn(
           'px-5 py-2 rounded-full text-sm font-medium transition-all duration-200',
           active === 'projects'
@@ -21,10 +24,10 @@ export default function ContentToggle({ active }: ContentToggleProps) {
             : 'text-muted-foreground hover:text-foreground'
         )}
       >
-        Projects
+        {t('projects')}
       </button>
       <button
-        onClick={() => router.push('/blogs')}
+        onClick={() => router.push(`/${locale}/blogs`)}
         className={cn(
           'px-5 py-2 rounded-full text-sm font-medium transition-all duration-200',
           active === 'blogs'
@@ -32,7 +35,7 @@ export default function ContentToggle({ active }: ContentToggleProps) {
             : 'text-muted-foreground hover:text-foreground'
         )}
       >
-        Blog
+        {t('blogs')}
       </button>
     </div>
   )
