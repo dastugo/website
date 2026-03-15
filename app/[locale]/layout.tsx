@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   keywords: ['AI consulting', 'full-stack development', 'mobile app development', 'chatbot services', 'AI automation', 'dastugo'],
   authors: [{ name: 'dastugo' }],
   metadataBase: new URL('https://dastugo.com'),
-  icons: { icon: '/favicon.png', apple: '/favicon.png' },
+  icons: { icon: '/dastugo-icon.png', apple: '/dastugo-icon.png' },
 }
 
 export function generateStaticParams() {

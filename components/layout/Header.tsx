@@ -71,8 +71,8 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center gap-2 group">
-            <span className="font-serif font-bold text-2xl text-foreground tracking-tight group-hover:text-primary transition-colors">
-              dastugo
+            <span className="font-serif font-bold text-2xl tracking-tight">
+              <span className="text-primary">das</span><span className="text-foreground group-hover:text-primary transition-colors">tugo</span>
             </span>
           </Link>
 

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, useCallback } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
 import { MessageCircle, X, Send, Loader2 } from 'lucide-react'
 import Link from 'next/link'
@@ -27,6 +27,8 @@ export default function Chat() {
   const [error, setError] = useState('')
   const bottomRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
+  const panelRef = useRef<HTMLDivElement>(null)
+  const bubbleRef = useRef<HTMLButtonElement>(null)
 
   const userMessageCount = messages.filter((m) => m.role === 'user').length
   const limitReached = userMessageCount >= MAX_MESSAGES
@@ -48,6 +50,21 @@ export default function Chat() {
     window.addEventListener('sidebarchange', handler)
     return () => window.removeEventListener('sidebarchange', handler)
   }, [])
+
+  const handleClickOutside = useCallback((e: MouseEvent) => {
+    if (
+      panelRef.current && !panelRef.current.contains(e.target as Node) &&
+      bubbleRef.current && !bubbleRef.current.contains(e.target as Node)
+    ) {
+      setOpen(false)
+    }
+  }, [])
+
+  useEffect(() => {
+    if (open) document.addEventListener('mousedown', handleClickOutside)
+    else document.removeEventListener('mousedown', handleClickOutside)
+    return () => document.removeEventListener('mousedown', handleClickOutside)
+  }, [open, handleClickOutside])
 
   async function send() {
     const text = input.trim()
@@ -87,6 +104,7 @@ export default function Chat() {
     <>
       {/* Floating bubble */}
       <button
+        ref={bubbleRef}
         onClick={() => setOpen((o) => !o)}
         className={cn(
           'fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-primary text-primary-foreground shadow-lg flex items-center justify-center hover:opacity-90 transition-all duration-300',
@@ -99,13 +117,15 @@ export default function Chat() {
 
       {/* Chat panel */}
       {open && (
-        <div className="fixed bottom-24 right-6 z-50 w-[340px] max-w-[calc(100vw-2rem)] rounded-2xl border border-border bg-card shadow-xl flex flex-col overflow-hidden"
+        <div ref={panelRef} className="fixed bottom-24 right-6 z-50 w-[340px] max-w-[calc(100vw-2rem)] rounded-2xl border border-border bg-card shadow-xl flex flex-col overflow-hidden"
           style={{ maxHeight: 'min(520px, calc(100vh - 120px))' }}>
 
           {/* Header */}
           <div className="px-4 py-3 border-b border-border bg-muted/40 flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            <span className="text-sm font-semibold text-foreground">{t('title')}</span>
+            <span className="text-sm font-semibold font-serif">
+              <span className="text-primary group-hover:text-primary">das</span><span className="text-foreground group-hover:text-primary transition-colors">tugo</span>
+            </span>
           </div>
 
           {/* Messages */}
