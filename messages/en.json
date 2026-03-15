@@ -1,0 +1,139 @@
+{
+  "hero": {
+    "location": "Turkey · United States",
+    "tagline": "Once upon a time, we argued about who broke the iPad.",
+    "taglineStrong": "Now we build solutions together.",
+    "viewWork": "View Our Work",
+    "contact": "Contact Us"
+  },
+  "sections": {
+    "services": {
+      "label": "What We Do",
+      "heading": "Services",
+      "subheading": "From AI strategy to shipping production apps — we cover the full spectrum so you can focus on your business."
+    },
+    "about": {
+      "label": "The Team",
+      "heading": "Who We Are",
+      "subheading": "A sister and a brother, a few thousand miles apart, shipping things together.",
+      "storyLabel": "Our Story",
+      "storyHeading": "Once upon a time, we argued about who broke the iPad. Now we build solutions together.",
+      "storyBody1": "We grew up in Turkey, moved to the United States to pursue our education, and somewhere along the way realized we were both building things — just separately. Dastugo is our answer to that.",
+      "storyBody2": "We bring together Serap's deep expertise in AI and data science with Dogan's full-stack and mobile chops. The result is a small team with a wide range — from AI strategy to shipping production apps to automating workflows that actually save people time."
+    },
+    "projects": {
+      "label": "Our Work",
+      "heading": "Projects",
+      "viewAll": "View All Projects"
+    },
+    "blogs": {
+      "label": "Thoughts & Ideas",
+      "heading": "Blog",
+      "viewAll": "View All Posts"
+    },
+    "gallery": {
+      "label": "Behind the Scenes",
+      "heading": "Gallery",
+      "viewAll": "View All Photos"
+    },
+    "contact": {
+      "label": "Let's Talk",
+      "heading": "Start a Project",
+      "body": "Have an idea? Need to automate something? Want to build an AI agent for your team? Drop us a message — we're fast to respond and love a good challenge.",
+      "basedIn": "Based in",
+      "location": "Dallas, TX — United States",
+      "alsoServingLabel": "Also serving",
+      "alsoServing": "Turkey & remote worldwide"
+    }
+  },
+  "contact": {
+    "namLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@company.com",
+    "companyLabel": "Company (optional)",
+    "companyPlaceholder": "Your company name",
+    "serviceLabel": "Service",
+    "servicePlaceholder": "Select a service...",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us about your project...",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message Sent",
+    "successBody": "Thanks for reaching out. We'll get back to you within 24 hours.",
+    "services": [
+      "AI Consulting",
+      "AI Automation",
+      "Full-Stack Development",
+      "Mobile App Development",
+      "Web Development",
+      "Chatbot Services",
+      "Company AI Agents",
+      "Other"
+    ]
+  },
+  "footer": {
+    "tagline": "Two siblings building AI solutions, custom software, and automation systems between Turkey and the United States.",
+    "company": "Company",
+    "resources": "Resources",
+    "team": "Team",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "projects": "Projects",
+    "blog": "Blog",
+    "gallery": "Gallery",
+    "rights": "All rights reserved."
+  },
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "getInTouch": "Get in Touch"
+  },
+  "notFound": {
+    "label": "Page Not Found",
+    "heading": "404",
+    "body": "Looks like this page took a wrong turn. It happens — even to us.",
+    "back": "Back to Homepage"
+  },
+  "projects": {
+    "label": "Our Work",
+    "heading": "All Projects",
+    "subheading": "A collection of work we're proud of — from open source tools to client solutions.",
+    "featured": "Featured",
+    "back": "All Projects",
+    "related": "Related Projects",
+    "viewGithub": "View on GitHub",
+    "liveDemo": "Live Demo"
+  },
+  "blogs": {
+    "label": "Thoughts & Ideas",
+    "heading": "All Posts",
+    "subheading": "Thoughts on AI, development, and building things that actually matter.",
+    "featured": "Featured",
+    "morePosts": "More Posts",
+    "back": "All Posts",
+    "moreBy": "More by"
+  },
+  "gallery": {
+    "label": "Behind the Scenes",
+    "heading": "Gallery",
+    "subheading": "Moments from our journey — from sibling rivalries to building things together in the US."
+  },
+  "toggle": {
+    "projects": "Projects",
+    "blogs": "Blog"
+  },
+  "chat": {
+    "greeting": "Hi! I'm the dastugo assistant. How can I help you today?",
+    "placeholder": "Ask me anything...",
+    "send": "Send",
+    "limitReached": "You've reached the message limit. For further questions, please use our contact form.",
+    "error": "Something went wrong. Please try again.",
+    "title": "dastugo Assistant"
+  }
+}
