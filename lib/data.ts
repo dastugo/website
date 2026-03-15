@@ -8,7 +8,9 @@ export const teamMembers: TeamMember[] = [
     education: 'SMU — Computer Science & Data Science',
     imageUrl: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_7820.JPG-mnIv7Ik4CB5OUtSrx97VcAIaziV941.jpeg',
     websiteUrl: 'https://oykuserap.github.io/',
-    bio: 'AI Engineer at Toyota Financial Services with expertise in machine learning, AI automation, and data-driven solutions.'
+    bio: 'AI Engineer at Toyota Financial Services with expertise in machine learning, AI automation, and data-driven solutions.',
+    linkedinUrl: 'https://www.linkedin.com/in/serapogut/',
+    githubUrl: 'https://github.com/oykuserap',
   },
   {
     name: 'Dogan Ogut',
@@ -17,7 +19,9 @@ export const teamMembers: TeamMember[] = [
     education: 'University of Texas at Arlington — Computer Science',
     imageUrl: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dogito-kIHMvngKXncVB4oxIvon3yHIT6EPqP.png',
     websiteUrl: 'https://ogutdgn.com',
-    bio: 'Sophomore Computer Science student specializing in full-stack web development, mobile applications, and modern web technologies.'
+    bio: 'Sophomore Computer Science student specializing in full-stack web development, mobile applications, and modern web technologies.',
+    linkedinUrl: 'https://www.linkedin.com/in/doganogut/',
+    githubUrl: 'https://github.com/ogutdgn',
   }
 ]
 
