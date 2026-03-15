@@ -40,4 +40,6 @@ export interface TeamMember {
   imageUrl: string
   websiteUrl: string
   bio: string
+  linkedinUrl?: string
+  githubUrl?: string
 }
