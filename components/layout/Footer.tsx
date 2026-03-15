@@ -38,8 +38,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pb-8">
           <div className="lg:col-span-2 space-y-4">
-            <Link href={`/${locale}`} className="inline-block">
-              <span className="font-serif font-bold text-2xl text-foreground">dastugo</span>
+            <Link href={`/${locale}`} className="inline-block group">
+              <span className="font-serif font-bold text-2xl">
+                <span className="text-primary">das</span><span className="text-foreground group-hover:text-primary transition-colors">tugo</span>
+              </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
               {t('tagline')}

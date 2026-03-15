@@ -60,7 +60,9 @@ export default function MobileSidebar({ open, onClose, navLinks, locale }: Mobil
         aria-modal="true" role="dialog" aria-label="Navigation menu"
       >
         <div className="flex items-center justify-between px-6 h-16 border-b border-border">
-          <span className="font-serif font-bold text-xl text-foreground">dastugo</span>
+          <span className="font-serif font-bold text-xl">
+            <span className="text-primary">das</span><span className="text-foreground">tugo</span>
+          </span>
           <button onClick={onClose} className="p-2 rounded-md hover:bg-muted transition-colors cursor-pointer" aria-label="Close menu">
             <X size={20} />
           </button>

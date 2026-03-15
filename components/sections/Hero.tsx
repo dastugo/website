@@ -58,8 +58,10 @@ export default function Hero() {
           {t('location')}
         </p>
 
-        <h1 ref={titleRef} className="font-serif font-bold text-[clamp(4rem,12vw,9rem)] leading-none tracking-tight text-foreground">
-          dastugo
+        <h1 ref={titleRef} className="font-serif font-bold text-[clamp(4rem,12vw,9rem)] leading-none tracking-tight">
+          <Link href={`/${locale}`} className="group">
+            <span className="text-primary">das</span><span className="text-foreground group-hover:text-primary transition-colors">tugo</span>
+          </Link>
         </h1>
 
         <p className="mt-6 text-lg md:text-xl text-muted-foreground leading-relaxed text-balance max-w-2xl mx-auto opacity-0 animate-[fadeInUp_0.6s_ease_0.5s_forwards]">

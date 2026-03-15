@@ -22,7 +22,7 @@ interface Props { params: Promise<{ locale: string }> }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
   const isEN = locale === 'en'
-  const title = isEN ? 'dastugo — Digital Product Studio' : 'dastugo — Dijital Ürün Stüdyosu'
+  const title = 'dastugo'
   const description = isEN
     ? 'We design and develop digital products — web apps, mobile experiences, and AI-powered tools.'
     : 'Dijital ürünler tasarlıyor ve geliştiriyoruz — web uygulamaları, mobil deneyimler ve yapay zeka araçları.'
