@@ -31,8 +31,8 @@ export async function POST(req: NextRequest) {
     const resend = new Resend(process.env.RESEND_API_KEY)
     await resend.emails.send({
       from: 'dastugo Contact <onboarding@resend.dev>',
-      to: 'doganogut06@gmail.com',
-      replyTo: email,
+      to: ['doganogut06@gmail.com'],
+      replyTo: [email],
       subject: `New Contact: ${name}${service ? ` — ${service}` : ''}`,
       html: `
         <h2>New message from dastugo contact form</h2>
